@@ -1,0 +1,20 @@
+body {
+    background: #e5fff0;
+}
+
+header {
+    background: #1f1518;
+}
+
+article time {
+    background: #00ff6a;
+}
+
+/*article pre,
+article table {
+    background: #cfe5d8;
+}
+
+article table {
+    display: block;
+}*/

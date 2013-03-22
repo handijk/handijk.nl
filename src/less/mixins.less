@@ -1,0 +1,35 @@
+.serif {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.sans-serif {
+    font-family: 'open sans', sans-serif;
+}
+
+.green-txt-glow {
+    text-shadow: 0 0 .25em @green;
+}
+
+.border-radius {
+    border-radius: .5em;
+}
+
+.transition-width (@s: .4s) {
+    -webkit-transition: width @s;
+}
+
+.transition-transform (@s: .4s) {
+    -webkit-transition: -webkit-transform @s;
+}
+
+.transition-icon (@s: .4s) {
+    -webkit-transition: color 1s, font-size .25s, -webkit-transform @s, text-shadow 1s;
+}
+
+.transform (@degree: 0deg) {
+    -webkit-transform: rotateY(@degree);
+}
+
+.hide-backface {
+    -webkit-backface-visibility: hidden;
+}

@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.name {
+    display: block;
+    margin: 1em 0;
+}
+
+article {
+    position: relative;
+    min-height: 100%;
+    padding: 0 14.5% 2em 9%;
+}
+
+article time {
+    position: absolute;
+    left: 0;
+    margin: 0 0 0 -1em;
+    padding: 0 .5em;
+}
+
+article p {
+    margin-right: 14.5%;
+}
+
+article p:first-of-type,
+article h1 {
+    margin-right: -14.5%;
+}
+
+article h1:first-of-type {
+    margin-top: 1em
+}
+
+article pre,
+article table {
+    padding: 1em 37.7% 1em 23.4%;
+    margin: 1em -37.7% 1em -23.4%;
+}
+
+@media screen and (min-width: 1200px) {
+    
+    header {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 38%;
+        padding: 8% 0 0 0;
+    }
+    
+        header h1 {
+            margin: 0;
+        }
+    
+        header img {
+            display: block;
+            margin: 0 auto;
+        }
+        
+        header h1 span {
+            display: block;
+            margin: 1.618em 0;
+        }
+    
+        header img {
+            width: 23.636%;
+        }
+        
+        header h2 {
+            margin: 1em 0;
+        }
+        
+        header .description {
+            display: block;
+            /*margin: 1em 21%;*/
+            margin: 0 21%;
+        }
+        
+        .social-links {
+            position: absolute;
+            right: 8%;
+            left: 8%;
+            bottom: 0;
+        }
+        
+    article {
+        margin: 0 0 0 38%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: #1f1518;
+        text-align: left;
+    }
+    
+    header h1 {
+        margin: 0;
+    }
+    
+    header h1 span {
+        margin: 0;
+    }
+    
+    header img {
+        height: 1em;
+        width: auto;
+    }
+    
+    header h2 {
+        margin: 1em 0;
+    }
+    
+    header p {
+        margin: 1em 21%;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background: #1f1518;
+    }
+}

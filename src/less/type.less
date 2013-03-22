@@ -1,0 +1,69 @@
+a:hover { text-decoration: none; }
+h1, h2, h3, h4 { .serif; }
+
+body {
+    
+    .sans-serif;
+    line-height: 1.681em;
+}
+
+header {
+    
+    text-align: center;
+    
+    .name { 
+    
+        .sans-serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: .6em;
+    }
+    
+    .description {
+        @media screen and (max-height: 30em) { 
+            line-height: 1.5em; 
+        }
+    }
+    
+    .social-links {
+        
+        font-size: 1.5em;
+        
+        .icon { 
+            line-height: 2em; 
+        }
+        
+        .label { 
+            font-weight: bold; 
+            font-size: .5em; 
+        }
+            
+        a:hover {
+                
+            .icon { 
+                font-size: 2em; 
+                line-height: 1em; 
+            }
+            
+            .label { 
+                font-size: .5em; 
+            }       
+        }
+    }
+}
+
+article {
+    
+    .headline { font-size: 3.14em; line-height: 1em; }
+    
+    p:first-of-type  {     
+        .serif;
+        font-size: 1.1681em;
+        font-style: italic;
+    }
+    
+    .gist {
+        font-size: 0.82em;
+        line-height: 1.2em;
+    }
+}
