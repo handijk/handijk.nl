@@ -1,6 +1,0 @@
-[submodule "less.js"]
-	path = less.js
-	url = https://github.com/cloudhead/less.js.git
-[submodule "src/lib/less.js"]
-	path = src/lib/less.js
-	url = https://github.com/cloudhead/less.js.git
